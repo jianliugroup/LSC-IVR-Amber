@@ -1,0 +1,15 @@
+NPT simulation of liquid water
+ &cntrl
+ ipimd = 2
+ irest = 0, ntx = 1
+ ntb = 2, cut = 7.0, ntp = 1
+ pres0 = 1.013, taup=4.0,
+ tempi = 298.15, temp0 = 298.15
+ ntt = 4, nchain = 4                             
+ nscm = 1000                               
+ nstlim = 2000000, dt = 0.0001
+ ntpr = 1000, ntwx = 1000, ntwr = 1000  
+  /
+ &ewald                                 
+ skinnb = 2.0                            
+ /

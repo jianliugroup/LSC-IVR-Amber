@@ -1,0 +1,8 @@
+tolerance 2.0 
+output water216.pdb 
+filetype pdb 
+structure water1.pdb 
+  number 216 
+  inside cube 0. 0. 0. 19. 
+end structure 
+

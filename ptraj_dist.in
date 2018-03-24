@@ -1,0 +1,3 @@
+trajin mdcrd
+distance H2-H1 @3 @2 out HH-distance.dat 
+angle H1-O-H2  @2 @1 @3 out HOH-angle.dat

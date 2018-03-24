@@ -1,0 +1,8 @@
+source leaprc.ff99SB
+WAT = SPG
+loadAmberParams frcmod.qspcfw
+set default FlexibleWater on
+water = loadpdb "water216new.pdb"
+setBox water centers 0.0
+saveamberparm water wat216.prmtop wat216.inpcrd
+quit

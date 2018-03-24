@@ -1,0 +1,13 @@
+NVE simulation of liquid water
+&cntrl
+imin = 0,                 
+irest = 1, ntx = 5,   
+ntt = 0, cut = 7.0,
+ntb = 1,
+nstlim = 40000, dt = 0.0005,
+nscm = 1,
+ntpr = 1, ntwr = 1, ntwx = 1, ntwv = 1
+/
+&ewald                   
+skinnb = 2.0             
+/        

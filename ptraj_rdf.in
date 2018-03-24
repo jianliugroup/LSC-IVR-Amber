@@ -1,0 +1,4 @@
+trajin mdcrd
+radial O-H 0.05 9.0 :WAT@O :WAT@H1,H2 
+radial H-H 0.05 9.0 :WAT@H1 :WAT@H1,H2 
+radial O-O 0.05 9.0 :WAT@O :WAT@O 
